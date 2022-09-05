@@ -4,9 +4,9 @@ Console.WriteLine("Ведите число");
 
 string input = Console.ReadLine ();
 
-int number = int.Parse (input)
+int number = int.Parse (input);
 
-int square = numder * number
+int square = number * number;
 
-Console.WriteLinen ($"Число в квадрате равно {square}")
+Console.WriteLine ($"Число в квадрате равно {square}");
 
